@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 echo "# portfolio" >> README.md
 git init
 git add README.md
@@ -7,4 +8,15 @@ git remote add origin https://github.com/rukendar/portfolio.git
 Branch check: Use master 
 git push -u origin main
 
+=======
+echo "# portfolio" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/rukendar/portfolio.git
+Branch check: Use master 
+git push -u origin main
+
+>>>>>>> 685516dc719c4b0ad937d0340dd685882e849ce2
 You initialized a new Git repository in your portfolio directory using git init. Next, you configured your global Git user identity by setting your name to "rukendar" and email to "minturukendar1432@gmail.com" with git config --global. You staged all files in the directory using git add . and created your first commit with the message "first commit" via git commit -m. You added the GitHub repository as the remote origin with git remote add origin https://github.com/rukendar/portfolio.git. After checking that your local branch was named "master" (not "main"), you pushed the changes to the remote master branch using git push -u origin master, successfully uploading your files and setting up tracking.
