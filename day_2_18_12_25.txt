@@ -1,0 +1,7 @@
+topics 
+1.js file push into github
+2.collabrators
+3.fork
+4.pull request
+
+GitHub's version control workflow begins with pushing a JS file: initialize Git (git init), stage (git add script.js), commit (git commit -m "Added script.js"), link remote (git remote add origin <url>), and push (git push -u origin main), making your code shareable. Collaborators get direct repo access via settings (roles: read/write/admin), enabling clones, branches, and merges with conflict resolution through issues or protections. Forking duplicates a repo to your account for safe experimentation (git remote add upstream for syncing), while pull requests propose changes from forks/branches for review—creating diffs, discussions, and merges (e.g., squash/rebase) to ensure quality and track contributions in teams or open-source projects.
